@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Majesty.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>2D36EDB76F63BC04454847CB2626E860119401CA</string>
+				<key>dateExpires</key>
+				<string>12/02/22</string>
+				<key>type</key>
+				<string>Apple Development</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>2D36EDB76F63BC04454847CB2626E860119401CA</string>
+						<key>dateExpires</key>
+						<string>12/02/22</string>
+						<key>type</key>
+						<string>Apple Development</string>
+					</dict>
+					<key>name</key>
+					<string>OpenSSL.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>C8XGHQL74J</string>
+						<key>name</key>
+						<string>ServeOn Inc.</string>
+					</dict>
+				</dict>
+			</array>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>C8XGHQL74J.com.serveon.app</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>C8XGHQL74J</string>
+				<key>get-task-allow</key>
+				<true/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>C8XGHQL74J.com.serveon.app</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>Majesty.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>b679a8a1-60e3-472a-8c1d-3e0486a6e7df</string>
+				<key>name</key>
+				<string>ServeOn profile</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>C8XGHQL74J</string>
+				<key>name</key>
+				<string>ServeOn Inc.</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
